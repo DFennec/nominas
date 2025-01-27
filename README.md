@@ -42,8 +42,12 @@ will be carried out to look for the embedded database, if the program finds no l
   <br>
   
 ## INFORMES
-  This menu acts as a form that allows the user to insert employees into the company database.<br>
-  
+  This menu doesn't allow the user to interact with it, at least directly. It shows you some of the company employees' statistics.<br>
+
+  ![image](https://github.com/user-attachments/assets/8aa6b1a8-db51-4614-bf7a-04ca551ff86f)
+
+  Keep in mind this section won't work as intended if the company does not have at least one male and one female employee. 
+  Rounding and other data treatment has been carried out when querying the database to make the report look more even. 
 ## NOMINAS
   In this section you can query the embedded database and calculate the payroll of the queried employee.<br>
   
@@ -80,10 +84,9 @@ will be carried out to look for the embedded database, if the program finds no l
   
   ### IMPRIMIR
 
+  This button will print out a pdf once the data is inserted and the payroll calculated.
+  Admittedly, it is an extremely basic implementation and layout, as this was a non-required feature to earn bonus points.
+
   ![image](https://github.com/user-attachments/assets/61af9059-4b0c-4af1-971b-989907125c3f)
 
   ![image](https://github.com/user-attachments/assets/2a922d9a-da38-483c-9f5a-efc5c7cbc7a1)
-
-
-  This button will print out a pdf once the data is inserted and the payroll calculated.
-  Admittedly, it is an extremely basic implementation and layout, as this was a non-required feature to earn bonus points.
